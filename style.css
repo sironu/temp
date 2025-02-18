@@ -33,10 +33,10 @@ button:active {
 
 .container {
   min-height: 100vh;
-  padding-top: 15px;
+
     width: 100%;
     padding-left: 20%;
-    background: lightblue;
+   
     overflow: hidden;
   
   }
