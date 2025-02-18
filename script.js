@@ -30,7 +30,11 @@ button.addEventListener("click", () => {
   // Copy text to the clipboard
   navigator.clipboard.writeText(textToCopy);
   button.innerHTML = "Copied";
-  welcome.classList.replace("welcome2", "welcome");
-  css.classList.add("hidden");
+   
+ 
     copyContainer.classList.replace("copy-container2", "copy-container");
+    setTimeout(() => {
+       css.classList.add("hidden");
+       welcome.classList.replace("welcome2", "welcome");
+    }, 4000);
 });
