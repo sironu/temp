@@ -11,33 +11,28 @@
 
 <body>
 
-  <main>
+  <main class="none">
 
-    <div class="side-bar flex">
-      <button class="html">HTML</button>
-      <button class="css">CSS</button>
-      <button class="js">JAVASCRIPT</button>
-    
+    <div class="side-bar flex ">
+      <button class="html-button">HTML</button>
+      <button class="css-button">CSS</button>
+      <button class="js-button">JAVASCRIPT</button>
     </div>
+  
 
+    <div class="container flex">
 
-    <div class="container">
-
-      <div class="welcome flex">
-       
-         
+      <div class="welcome">
           <p class="animate-welcome1 gradient-text animate__animated animate__slower">Welcome to</p>
           <p class="animate-welcome2 gradient-text animate__animated animate__slow emmanuel">Emmanuel</p>
           <p class="animate-welcome3 gradient-text animate__animated animate__slower">Dev Design</p>
 
-
-        
-        
       </div>
       <div class="html hidden"></div>
 
       <div class="css hidden">
-        <pre>
+       <marquee><h2 style="padding: 10px 0;">CSS Custom Class</h2></marquee>
+        <pre class="text-to-copy">
   .flex {
   display: flex;
   }
@@ -107,6 +102,14 @@
     </div>
 
   </main>
+
+  <div id="show-hide-container" class="copy-container">
+    <p class="help">Can i help you?</p>
+    <div class="copy-btn-container">
+      <button class="copy-btn">Click to Copy All</button>
+    </div>
+  </div>
+
 
 
   <script src="script.js"></script>
