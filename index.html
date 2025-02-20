@@ -6,113 +6,698 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
   <title>Document</title>
 </head>
 
 <body>
-  <div id="show-hide-container" class="copy-container">
-    <p class="help">Can i help you?</p>
-    <div class="copy-btn-container">
-      <button class="copy-btn">Click to Copy All</button>
-    </div>
-  </div>
-
-
-  <main class="none">
-
-    <div class="side-bar none">
-      <button class="html-button">HTML</button>
-      <button class="css-button">CSS</button>
-      <button class="js-button">JAVASCRIPT</button>
-    </div>
+  <header class="max-width-100 height-10 none">
+    <div class="header-container height-10 flex j-between text-white">
+      <div class="logo padding-x-20 menu font-1">Personal-Tutor</div>
+      <nav class="nav flex flex-center padding-x-20">
+        <ul class="flex flex-center list-none">
+          <li><a class="a-tag font-1 hover active text-white padding-x-10 home-button" href="#home">Home</a></li>
+          <li><a class="a-tag font-1 hover active text-white padding-x-10 about-button" href="#about">About</a></li>
+          <li><a class="a-tag font-1 hover active text-white padding-x-10 contact-button" href="#contact">Contact</a>
+          </li>
+          <li><a class="a-tag font-1 hover active text-white padding-x-10 tutorial-button" href="#">Tutorials</a></li>
+          <li><a class="a-tag font-1 hover active text-white padding-x-10 blog-button" href="#blog">Blogs</a></li>
+          <li><a class="a-tag font-1 hover active text-white padding-x-10 news-button" href="#news">News</a></li>
+        </ul>
   
-
-    <div class="container flex">
-
-      <div class="welcome">
-          <p class="animate-welcome1 gradient-text animate__animated animate__slower">Welcome to</p>
-          <p class="animate-welcome2 gradient-text animate__animated animate__slow emmanuel">Emmanuel</p>
-          <p class="animate-welcome3 gradient-text animate__animated animate__slower">Dev Design</p>
-
+      </nav>
+      <div class="menu hidden">
+        <div class="menu-bar bg-white"></div>
+        <div class="menu-bar bg-white"></div>
+        <div class="menu-bar bg-white"></div>
       </div>
-      <div class="html hidden"></div>
+    </div>
+  </header>
+  <div class="none">
+    <div class="tutorial-courses flex j-between height-0 transition">
+      <div class="course menu hover active html padding-x-20">HTML</div>
+      <div class="course menu hover active css padding-x-20">CSS</div>
+      <div class="course menu hover active javascript padding-x-20">JAVASCRIPT</div>
+      <div class="course menu hover active git padding-x-20">GIT</div>
+      <div class="course menu hover active jquery padding-x-20">JQUERY</div>
+      <div class="course menu hover active react padding-x-20">REACT</div>
+      <div class="course menu hover active sql padding-x-20">SQL</div>
+      <div class="course menu hover active mysql padding-x-20">MYSQL</div>
+      <div class="course menu hover active custom-css padding-x-20">CUSTOM-CSS</div>
+      <div class="course menu hover active python padding-x-20">PYTHON</div>
+      <div class="course menu hover active php padding-x-20">PHP</div>
+      <div class="course menu hover active java padding-x-20">JAVA</div>
+      <!-- <div class="course menu hover active c padding-x-20">C</div> -->
+      <!-- <div class="course menu hover active c++ padding-x-20">C++</div> -->
+      <!-- <div class="course menu hover active c# padding-x-20">C#</div> -->
+    </div>
 
-      <div class="css hidden">
-      <h2 style="padding: 10px 0;">CSS Custom Class</h2>
-        <pre class="text-to-copy">
+
+
+</div>
+  <main class="height-70 overflow-hidden none">
+    <div class="container flex">
+      <div class="welcome show-welcome">
+        <p class="animate-welcome1 gradient-text animate__animated animate__slower">Welcome to</p>
+        <p class="animate-welcome2 gradient-text animate__animated animate__slow padding-x-10">Emmanuel</p>
+        <p class="animate-welcome3 gradient-text animate__animated animate__slower">Tutorial Website</p>
+      </div>
+
+      <div class="html hidden"></div>
+      
+      <div class="css-page hidden width-100">
+        <div class="grid grid-un-equal">
+          <div class="custom-css-example bg-gray height-70 overflow-hidden text-white">
+            <h4 class="text-center text-white padding-y-10">Custom CSS Class Documentation</h4>
+            <p class="padding-10">(1): Copy the Custom CSS Class on the right pane and paste it in your stylesheet (.css)</p>
+            <p class="padding-10">(2): Add the class name in the opening tag of your HTML as depictecd in the example below to
+              apply the style </p>
+            <p class="padding-10">(3): The Custom CSS Class is customisable that is, you can edit each class to suit your work
+            </p>
+            <p class="padding-10">(4): Copy and paste in your html document, the example using the icon on the right to see
+              how it works</p>
+            <div class="width-100 flex j-between padding-x-10 relative">
+              <i title="Copy Example" class="fa-solid fa-copy active absolute example-button menu copy-icon"></i>
+      
+              <div class="flex j-center bg-green text-white text-justify padding width-30 hidden">
+                <div class="example-css">
+                  <div class="flex j-center bg-green text-white text-justify padding-20 margin-y-20 width-30">
+                    Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Tempora vero, temporibu
+                    voluptatem impedit expedita harum neque dolorum
+                    vitae maiores, aperiam unde minus saepe minima placeat
+                    sapiente consequatur molestias. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Culpa saepe sunt quibusdam necessi
+                    quod repellat sint, voluptates quia explicabo nam eius a ex facere ut?
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque in facilis
+                    labore et dolores sint voluptas enim fugit, doloribus delectus repudiandae quaerat
+                    voluptatem excepturi corporis provident aut voluptate culpa. Iusto? Lorem ipsum dolor
+                    sit, amet consectetur adipisicing elit. Eaque, laborum tempora inventore nostrum voluptas
+                    maiores, nam libero nesciunt accusamus placeat temporibus omnis itaque quis aut animi commodi
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <img class="padding-5" src="/Images/custom-css-example.PNG" alt="CSS Example">
+      
+          </div>
+<pre>
+  /* Custom CSS */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .flex {
+    display: flex;
+  }
+            
+  .flex-column {
+    flex-direction: column;
+  }
+  .j-between {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .j-center {
+    justify-content: center;
+    align-items: center;
+  }
+    <button class="button bg-green text-white">View More</button>
+    </pre>
+    </div>
+
+
+<pre class="custom-css-class2">
+  /* Custom CSS */
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+  body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  header {
+  background: seagreen;
+  min-height: 10vh;
+  }
+  
+  main {
+  background: silver;
+  min-height: 70vh;
+  }
+  
+  footer {
+  background: black;
+  min-height: 20vh;
+  }
+  
+  .format {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  }
+  
   .flex {
   display: flex;
   }
+  
   .flex-column {
-  display: flex;
   flex-direction: column;
   }
-  .flex-between {
+  
+  .j-between {
   justify-content: space-between;
   align-items: center;
   }
-  .flex-center {
+  
+  .j-center {
   justify-content: center;
   align-items: center;
   }
+  
+  .hidden {
+  display: none;
+  }
+  
+  .block {
+  display: block;
+  }
+  
+  .grid {
+  display: grid;
+  }
+  
+  .grid-col-2 {
+  grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .grid-col-3 {
+  grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .grid-col-4 {
+  grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .grid-col-5 {
+  grid-template-columns: repeat(5, 1fr);
+  }
+  
+  .grid-col-1 {
+  grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .button {
+  padding: 5px 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  background: #f4f4f4;
+  }
+  .button-active:active {
+  background: radial-gradient(green, black);
+  color: white;
+  }
+  
+  .button-hover:hover {
+  background: radial-gradient(green, black);
+  color: white;
+  }
+  
+  .hover:hover {
+  color: #ccc;
+  }
+  
+  .active:active {
+  color: green;
+  }
+  
   .text-black {
   color: black;
   }
+  
   .text-white {
   color: white;
   }
+  
   .text-green {
   color: seagreen;
   }
+  
   .text-red {
   color: red;
   }
+  .text-justify {
+  text-align: justify;
+  }
+  
   .bg-black {
   background: black;
   }
+  
+  .bg-gray {
+  background: #24272A;
+  }
+  
   .bg-white {
   background: white;
   }
+  
   .bg-green {
   background: seagreen;
   }
+  
   .bg-red {
   background: red;
   }
-  .height-5 {
-  min-height: 7vh;
+  
+  .bg-tomato {
+  background: tomato;
   }
+  
+  .bg-orange {
+  background: orange;
+  }
+  
+  .bg-oranged {
+  background: orangered;
+  }
+  .bg-skyblue {
+  background: #A8C7FA;
+  }
+  
+  .list-none {
+  list-style: none;
+  }
+  
+  a {
+  text-decoration: none;
+  }
+  
+  .transition {
+  transition: all 200ms linear;
+  }
+  
+  .transition-500 {
+  transition: all 500ms linear;
+  }
+  
+  .transition-1000 {
+  transition: all 1000ms linear;
+  }
+  
+  .height-0 {
+  height: 0;
+  overflow: hidden;
+  }
+  
+  .height-5 {
+  height: 5vh;
+  }
+  
+  .height-10 {
+  height: 10vh;
+  }
+  .height-15 {
+  height: 15vh;
+  }
+  
+  .height-20 {
+  height: 20vh;
+  }
+  .height-25 {
+  height: 25vh;
+  }
+  
+  .height-30 {
+  height: 30vh;
+  }
+  
+  .height-40 {
+  height: 40vh;
+  }
+  
+  .height-50 {
+  height: 50vh;
+  }
+  
+  .height-60 {
+  height: 60vh;
+  }
+  
+  .height-70 {
+  height: 70vh;
+  }
+  
+  .height-80 {
+  height: 80vh;
+  }
+  
+  .height-90 {
+  height: 90vh;
+  }
+  
+  .height-100 {
+  height: 100vh;
+  }
+  
+  .min-height {
+  min-height: 1vh;
+  }
+  
+  .max-height {
+  max-height: 100vh;
+  overflow-y: hidden;
+  }
+  
+  .max-width {
+  max-width: 100vw;
+  overflow-x: hidden;
+  }
+  
   .width-100 {
   width: 100%;
   }
-  .container {
+  
+  .width-90 {
   width: 90%;
   margin: auto;
   }
-  .margin-x {
+  
+  .width-80 {
+  width: 80%;
+  margin: auto;
+  }
+  
+  .width-70 {
+  width: 70%;
+  margin: auto;
+  }
+  
+  .width-60 {
+  width: 60%;
+  margin: auto;
+  }
+  
+  .width-50 {
+  width: 50%;
+  margin: auto;
+  }
+  
+  .width-40 {
+  width: 40%;
+  margin: auto;
+  }
+  
+  .width-30 {
+  width: 30%;
+  margin: auto;
+  }
+  
+  .width-20 {
+  width: 20%;
+  margin: auto;
+  }
+  
+  .width-10 {
+  width: 10%;
+  margin: auto;
+  }
+  
+  .width-5 {
+  width: 5%;
+  margin: auto;
+  }
+  
+  .width-0 {
+  width: 0;
+  overflow: hidden;
+  }
+  
+  .max-width {
+  max-width: 100vw;
+  overflow: hidden;
+  }
+  
+  .margin-x-20 {
   margin: 0 20px;
   }
-  .margin-y {
+  
+  .margin-x-10 {
+  margin: 0 10px;
+  }
+  
+  .margin-x-5 {
+  margin: 0 5px;
+  }
+  
+  .margin-y-20 {
   margin: 20px 0;
   }
-  .padding-x {
+  
+  .margin-y-10 {
+  margin: 10px 0;
+  }
+  
+  .margin-y-5 {
+  margin: 5px 0;
+  }
+  
+  .padding-x-20 {
   padding: 0 20px;
   }
-  .padding-y {
+  
+  .padding-x-10 {
+  padding: 0 10px;
+  }
+  
+  .padding-x-5 {
+  padding: 0 5px;
+  }
+  
+  .padding-y-20 {
   padding: 20px 0;
   }
-          </pre>
+  
+  .padding-y-10 {
+  padding: 10px 0;
+  }
+  
+  .padding-y-5 {
+  padding: 5px 0;
+  }
+  
+  .padding-5 {
+  padding: 2.5px 5px;
+  }
+  .padding-10 {
+  padding: 5px 10px;
+  }
+  .padding-20 {
+  padding: 10px 20px;
+  }
+  
+  .no-border {
+  border: none;
+  outline: none;
+  }
+  
+  .margin-auto {
+  margin: auto;
+  }
+  
+  .fixed {
+  position: fixed;
+  }
+  .relative {
+  position: relative;
+  }
+  .absolute {
+  position: absolute;
+  }
+  
+  .top-0 {
+  top: 0;
+  }
+  
+  .left-0 {
+  left: 0;
+  }
+  
+  .right-0 {
+  right: 0;
+  }
+  
+  .bottom-0 {
+  bottom: 0;
+  }
+  .bottom-1 {
+  bottom: 10px;
+  }
+  .bottom-2 {
+  bottom: 20px;
+  }
+  .bottom-3 {
+  bottom: 30px;
+  }
+  .bottom-4 {
+  bottom: 40px;
+  }
+  .bottom-5 {
+  bottom: 50px;
+  }
+  
+  .z-index {
+  z-index: 1;
+  }
+  
+  .z-index-10 {
+  z-index: 2;
+  }
+  
+  .z-index-20 {
+  z-index: 3;
+  }
+  
+  .z-index-30 {
+  z-index: 4;
+  }
+  
+  .z-index-40 {
+  z-index: 5;
+  }
+  
+  .z-index-50 {
+  z-index: 6;
+  }
+  
+  .menu {
+  cursor: pointer;
+  }
+  
+  .menu-bar {
+  width: 17px;
+  height: 2px;
+  margin: 3px;
+  }
+  
+  .gradient-text {
+  background: linear-gradient(to right, tomato, blue, green);
+  color: transparent;
+  background-clip: text;
+  }
+  
+  .font-1 {
+  font-size: 1.1rem;
+  }
+  
+  .font-2 {
+  font-size: 1.2rem;
+  }
+  
+  .font-3 {
+  font-size: 1.3rem;
+  }
+  
+  .font-4 {
+  font-size: 1.4rem;
+  }
+  
+  .font-5 {
+  font-size: 1.5rem;
+  }
+  
+  .text-center {
+  text-align: center;
+  }
+  .overflow-hidden{
+  overflow: hidden;
+  }
+</pre>
+
+
+
       </div>
 
       <div class="js hidden"></div>
 
     </div>
 
+    <div
+      class="smart-copy transition-1000 fixed bottom-0 right-0 bg-red width-20 flex j-center z-index-50 flex-column height-0">
+      <div class="copy-btn-container flex flex-column">
+        <p class="help text-white font-1 text-center">Do You want to Copy <br> Custom CSS?</p>
+        <div class="padding-x-20 padding text-center text-white padding no-border margin-y-5 copied">Click Yes to Copy</div>
+        <div class="flex margin-auto">
+          <button class="yes button hover margin-x-5 active">Yes</button>
+          <button class="no button margin-x-5 hover active">No</button>
+        </div>
+      </div>
+    </div>
   </main>
 
+<div class="width-100 bg-skyblue height-5 none we-are-social">
 
+  <marquee>
+    <div class=" flex j-between">
 
-  <script src="script.js"></script>
+      <div class="flex j-center padding-x-20">
+        <img src="/Images/fb-black.png" class="height-5 width-30" alt="FB">
+        <p class="padding-x-20">FB Link</p>
+      </div>
+
+      <div class="flex j-center padding-x-20">
+        <img src="/Images/Youtube-Icon.png" class="height-5 width-30" alt="FB">
+        <p class="padding-x-20">YouTube Channel</p>
+      </div>
+
+      <div class="flex j-center padding-x-20">
+        <img src="/Images/whatsapp-icon.jpeg" class="height-5 width-30" alt="FB">
+        <p class="padding-x-20">Send us Whatsapp Message</p>
+      </div>
+      <div class="flex j-center padding-x-20">
+        <img src="/Images/linkdin-icon.png" class="height-5 width-30" alt="FB">
+        <p class="padding-x-20">Check us on Linkdin</p>
+      </div>
+      <div class="flex j-center padding-x-20">
+        <img src="/Images/telegram-Icon.jpeg" class="height-5 width-30" alt="FB">
+        <p class="padding-x-20">We are on Telegram</p>
+      </div>
+      <div class="flex j-center padding-x-20">
+        <img src="/Images/Tiktok-Icon.png" class="height-5 width-30" alt="FB">
+        <p class="padding-x-20">We are on Ticktok</p>
+      </div>
+      <div class="flex j-center padding-x-20">
+        <img src="/Images/twitter-icon.png" class="height-5 width-30" alt="FB">
+        <p class="padding-x-20">Check our X handle</p>
+      </div>
+      </div>
+      </marquee>
+      </div>
+
+<div class="none mobile-only hidden">
+  <p>Sorry!</p>
+  <p>You can not access this</p>
+  <p>this website on mobile device</p>
+</div>
+<footer class="flex j-center flex-column height-0 text-white width-100 none">
+  <p class="font-1">All Right reserved &copy;2025</p>
+  <small class="font-0.5">This Tutorial website was developed by Onu Emmanuel Chukwuma</small>
+</footer>
+<script src="script.js"></script>
 </body>
 
 </html>
