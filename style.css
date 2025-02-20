@@ -340,11 +340,29 @@ a {
 .margin-y-5 {
   margin: 5px 0;
 }
+.padding-r-10 {
+  padding: 0 10px 0 0;
+}
+
+.padding-r-20 {
+  padding: 0 20px 0 0;
+}
+.padding-r-30 {
+  padding: 0 30px 0 0;
+}
+.padding-r-40 {
+  padding: 0 40px 0 0;
+}
+.padding-r-100 {
+  padding: 0 50px 0 0;
+}
+.padding-r-1200 {
+  padding: 0 20vw 0 0;
+}
 
 .padding-x-20 {
   padding: 0 20px;
 }
-
 .padding-x-10 {
   padding: 0 10px;
 }
